@@ -1,0 +1,145 @@
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+header{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+#navbar {
+  position: fixed;
+  max-width: 300px;
+  top: 0px;
+  height: 85vh;
+  left: 0px;
+  width: 20vw;
+  border-right: solid;
+}
+
+#navbar ul{
+  padding: 0;
+  list-style: none;
+  height: 100%;
+  font-size: 1.5rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+#nav-header{
+  height: 10vh;
+  padding: 15px 0px 0px 0px;
+}
+
+.main-section{
+  border-bottom: 1px solid;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.main-li{
+  position: relative;
+  border-top: 1px solid;
+  padding: 10px 10px 10px 10px;
+}
+
+.sub-li{
+  position: relative;
+  border-top: 1px solid;
+  border-color: #ddd;
+  padding: 10px 10px 10px 10px;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-sublink {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #222;
+}
+
+#main-doc{
+  position: absolute;
+  left: 24vw;
+  font-size: 2rem;
+  padding-right: 3vw;
+  padding-top: 20px;
+}
+
+.sec-header{
+  font-size: 4rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.sec-subheader{
+  font-size: 3rem;
+  text-align: left;
+}
+
+.text-with-image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.section-image {
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+#main-doc code {
+  background: #eee;
+  padding: 5px 30px 5px 30px;
+  border-radius: 4px;
+}
+
+@media (max-width: 1000px){
+  #nav-header{
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 650px){
+  #navbar{
+    background-color: #fff;
+    z-index: 1;
+    max-width: 100%;
+    width: 100%;
+    height: 200px;
+  }
+  
+  #navbar ul{
+    height: 64%;
+    border-bottom: solid;
+  }
+  
+  #nav-header{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2rem;
+  }
+  
+  #main-doc{
+    position: absolute;
+    left: 30px;
+    font-size: 2rem;
+    top: 210px;
+    padding-right: 30px;
+  }
+  
+}
