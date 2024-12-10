@@ -114,7 +114,7 @@ header{
   }
 }
 
-@media (max-width: 480px){
+@media (max-width: 600px){
   #navbar{
     background-color: #fff;
     z-index: 1;
