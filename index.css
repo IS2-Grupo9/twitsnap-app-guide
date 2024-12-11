@@ -14,24 +14,25 @@ header{
   position: fixed;
   max-width: 300px;
   top: 0px;
-  height: 85vh;
   left: 0px;
   width: 20vw;
   border-right: solid;
+  height: 100vh;
 }
 
-#navbar ul{
+#navbar ul {
   padding: 0;
+  margin: 0;
   list-style: none;
-  height: 100%;
   font-size: 1.5rem;
   overflow-y: auto;
   overflow-x: hidden;
+  height: calc(100vh - 95px);
 }
 
-#nav-header{
-  height: 10vh;
-  padding: 15px 0px 0px 0px;
+#nav-header {
+  padding: 15px 0px 20px 0px;
+  height: 60px;
 }
 
 .main-section{
@@ -124,13 +125,13 @@ header{
   }
   
   #navbar ul{
-    height: 64%;
+    height: 140px;
     border-bottom: solid;
   }
   
   #nav-header{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 15px 0 15px 0;
+    height: 30px;
     font-size: 2rem;
   }
   
